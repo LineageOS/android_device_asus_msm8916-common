@@ -16,6 +16,24 @@
       "revId": "e9455ee8bf6e7689352e9b5623bf278f9502fd9e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_08270767",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-03-15T14:57:04Z",
+      "side": 0,
+      "message": "Damn it\nI thought I removed it while moving stuff into power.sh\nThanks",
+      "parentUuid": "bfb3d3c7_a8fefbab",
+      "revId": "e9455ee8bf6e7689352e9b5623bf278f9502fd9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
