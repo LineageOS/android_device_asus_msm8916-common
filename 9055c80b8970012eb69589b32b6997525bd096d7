@@ -22,6 +22,23 @@
       "revId": "9055c80b8970012eb69589b32b6997525bd096d7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a1efd385",
+        "filename": "rootdir/etc/init.qcom.factory.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-27T20:04:31Z",
+      "side": 1,
+      "message": "AFAIK this is regenerated automatically",
+      "revId": "9055c80b8970012eb69589b32b6997525bd096d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
