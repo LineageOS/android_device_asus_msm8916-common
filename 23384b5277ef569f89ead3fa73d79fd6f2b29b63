@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_4db56d7d",
+        "filename": "cmactions/src/com/cyanogenmod/settings/device/CMActionsSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2016-06-14T12:28:18Z",
+      "side": 1,
+      "message": "private",
+      "revId": "23384b5277ef569f89ead3fa73d79fd6f2b29b63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6dbaa96e",
+        "filename": "cmactions/src/com/cyanogenmod/settings/device/CMActionsSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2016-06-14T12:28:18Z",
+      "side": 1,
+      "message": "why can\u0027t you use | ?",
+      "revId": "23384b5277ef569f89ead3fa73d79fd6f2b29b63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
