@@ -21,3 +21,6 @@
 
 #zram
 /dev/block/zram0                                    none         swap    defaults                                                                       zramsize=536870912,notrim
+
+#FRP
+/dev/block/bootdevice/by-name/frp                   /frp         emmc    defaults                                                                       defaults
