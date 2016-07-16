@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_054fc9bd",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-16T13:24:14Z",
+      "side": 1,
+      "message": "Typos in the read/write perms?",
+      "revId": "542492a2cd6f446c5b947f8f32af94073c6d59f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
