@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_6369d5bc",
+        "filename": "extract-files.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-17T12:28:04Z",
+      "side": 1,
+      "message": "This is not initialized.",
+      "range": {
+        "startLine": 76,
+        "startChar": 34,
+        "endLine": 76,
+        "endChar": 37
+      },
+      "revId": "80968e61dba30f53b9818051d59fc0c40cf5803e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
