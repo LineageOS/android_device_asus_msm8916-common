@@ -52,6 +52,24 @@
       "revId": "542492a2cd6f446c5b947f8f32af94073c6d59f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_68d774c1",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-17T10:23:35Z",
+      "side": 1,
+      "message": "http://androidxref.com/6.0.1_r10/xref/system/core/rootdir/init.rc#309 for example",
+      "parentUuid": "3fa7e38b_0877e03c",
+      "revId": "542492a2cd6f446c5b947f8f32af94073c6d59f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
