@@ -34,6 +34,24 @@
       "revId": "542492a2cd6f446c5b947f8f32af94073c6d59f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_0877e03c",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-17T03:26:24Z",
+      "side": 1,
+      "message": "Where did you see that? I\u0027m believe the first digit out of the 4 simply sets the special mode (like UID or GID)\n\nSomething like the 3rd and 4th last examples here: https://en.wikipedia.org/wiki/Chmod#Command_line_examples",
+      "parentUuid": "3fa7e38b_c5c69117",
+      "revId": "542492a2cd6f446c5b947f8f32af94073c6d59f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
