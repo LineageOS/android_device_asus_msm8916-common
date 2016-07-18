@@ -22,6 +22,30 @@
       "revId": "4a2baa3cc46ac5c701a39343413ee309c3d98a98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_b474e19a",
+        "filename": "extract-files.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-18T19:20:43Z",
+      "side": 1,
+      "message": "Yea... my local PS didn\u0027t contain the fix, anyway I already fixed it",
+      "parentUuid": "3fa7e38b_d475dd99",
+      "range": {
+        "startLine": 76,
+        "startChar": 35,
+        "endLine": 76,
+        "endChar": 37
+      },
+      "revId": "4a2baa3cc46ac5c701a39343413ee309c3d98a98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
