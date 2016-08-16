@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_e26883bb",
+        "filename": "init/init_msm8916.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2016-08-16T21:23:14Z",
+      "side": 1,
+      "message": "spelling",
+      "revId": "2128889bcb4e39e107b351f83e464925ad54ce94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
