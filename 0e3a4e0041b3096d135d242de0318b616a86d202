@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_12fabb41",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 13274
+      },
+      "writtenOn": "2016-08-23T20:07:19Z",
+      "side": 0,
+      "message": "Any reason you removed these lines?",
+      "range": {
+        "startLine": 764,
+        "startChar": 0,
+        "endLine": 765,
+        "endChar": 11
+      },
+      "revId": "0e3a4e0041b3096d135d242de0318b616a86d202",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
