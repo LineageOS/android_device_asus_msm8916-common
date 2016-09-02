@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_58f3569f",
+        "filename": "configs/media_profiles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-09-02T14:36:40Z",
+      "side": 1,
+      "message": "I think Google removed these since L/M",
+      "revId": "c2d16e8dcc3ec4991af461ac9d735833ecccde2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_78f09291",
+        "filename": "configs/media_profiles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-09-02T14:36:40Z",
+      "side": 1,
+      "message": "All these are commented out",
+      "revId": "c2d16e8dcc3ec4991af461ac9d735833ecccde2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
