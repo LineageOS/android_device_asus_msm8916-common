@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_0c32d410",
+        "filename": "include/fd_utils-inl-extra.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-11-10T20:15:50Z",
+      "side": 1,
+      "message": "missing comma",
+      "revId": "0ee998fa48ed7b870d0eaf5d6bf8a405096af707",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
