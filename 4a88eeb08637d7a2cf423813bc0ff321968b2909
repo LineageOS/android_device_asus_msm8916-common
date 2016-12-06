@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5f681702_c7dc811a",
+        "filename": "cmactions/res/xml/touchscreen_panel.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-06T14:09:53Z",
+      "side": 0,
+      "message": "nvm",
+      "parentUuid": "5f681702_27c8d553",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 54
+      },
+      "revId": "4a88eeb08637d7a2cf423813bc0ff321968b2909",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_87c5693f",
         "filename": "cmactions/res/xml/touchscreen_panel.xml",
         "patchSetId": 3
