@@ -15,4 +15,15 @@
 
 LOCAL_PATH := $(call my-dir)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+    bionic/bionic_time_conversions.cpp \
+    bionic/pthread_cond.cpp
+
+LOCAL_SHARED_LIBRARIES := libc
+
+LOCAL_MODULE := libshims_libc
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_SHARED_LIBRARY)
