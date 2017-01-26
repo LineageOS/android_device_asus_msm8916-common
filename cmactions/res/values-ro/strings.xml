@@ -17,9 +17,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">Gesturi pentru oprirea ecranului</string>
   <string name="touchscreen_c_gesture_title">Cameră foto</string>
+  <string name="touchscreen_c_gesture_summary">Desenați un \"C\" pentru a activa camera</string>
   <string name="touchscreen_e_gesture_title">E-mail</string>
+  <string name="touchscreen_e_gesture_summary">Desenați un \"e\" pentru a deschide aplicația e-mail</string>
   <string name="touchscreen_s_gesture_title">Mesagerie</string>
+  <string name="touchscreen_s_gesture_summary">Desenați un \"S\" pentru a deschide aplicația mesagerie</string>
+  <string name="touchscreen_v_gesture_title">Telefon</string>
+  <string name="touchscreen_v_gesture_summary">Desenați un \"V\" pentru a deschide aplicația telefon</string>
+  <string name="touchscreen_w_gesture_title">Browser</string>
+  <string name="touchscreen_w_gesture_summary">Desenați un \"W\" pentru a deschide aplicația browser</string>
   <string name="touchscreen_z_gesture_title">Lanternă</string>
+  <string name="touchscreen_z_gesture_summary">Desenați un „Z” pentru a deschide lanterna</string>
+  <string name="ambient_display_title">Afișare ambientală</string>
+  <string name="ambient_display_enable_title">Afișare ambientală</string>
+  <string name="ambient_display_enable_summary">Trezește ecranul când primiți notificări</string>
+  <string name="hand_wave_gesture_title">Unduire mână</string>
+  <string name="hand_wave_gesture_summary">Pulsează notificările la unduirea mâinii</string>
+  <string name="pick_up_gesture_title">Ridicare</string>
+  <string name="pick_up_gesture_summary">Pulsează notificările la ridicare</string>
   <string name="pocket_gesture_title">Buzunar</string>
+  <string name="pocket_gesture_summary">Pulsează notificările la scoaterea din buzunar</string>
 </resources>

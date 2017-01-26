@@ -19,24 +19,24 @@
   <!-- Gesture shortcuts -->
   <string name="gesture_display_title">螢幕關閉手勢</string>
   <string name="touchscreen_c_gesture_title">相機</string>
-  <string name="touchscreen_c_gesture_summary">繪製一個「C」即可啟動相機</string>
+  <string name="touchscreen_c_gesture_summary">畫出一個「C」即可啟動相機</string>
   <string name="touchscreen_e_gesture_title">電子郵件</string>
-  <string name="touchscreen_e_gesture_summary">繪製一個「e」即可開啟電子郵件應用程式</string>
-  <string name="touchscreen_s_gesture_title">訊息</string>
-  <string name="touchscreen_s_gesture_summary">繪製一個「S」即可開啟簡訊應用程式</string>
+  <string name="touchscreen_e_gesture_summary">畫出一個「e」即可開啟電子郵件應用程式</string>
+  <string name="touchscreen_s_gesture_title">簡訊</string>
+  <string name="touchscreen_s_gesture_summary">畫出一個「S」即可開啟簡訊應用程式</string>
   <string name="touchscreen_v_gesture_title">撥號</string>
-  <string name="touchscreen_v_gesture_summary">繪製一個「V」即可開啟撥號應用程式</string>
+  <string name="touchscreen_v_gesture_summary">畫出一個「V」即可開啟撥號應用程式</string>
   <string name="touchscreen_w_gesture_title">瀏覽器</string>
-  <string name="touchscreen_w_gesture_summary">繪製一個「W」即可開啟瀏覽器應用程式</string>
+  <string name="touchscreen_w_gesture_summary">畫出一個「W」即可開啟瀏覽器應用程式</string>
   <string name="touchscreen_z_gesture_title">閃光燈</string>
-  <string name="touchscreen_z_gesture_summary">繪製一個「Z」即可切換至手電筒</string>
+  <string name="touchscreen_z_gesture_summary">畫出一個「Z」即可切換至手電筒</string>
   <string name="ambient_display_title">環境顯示</string>
   <string name="ambient_display_enable_title">環境顯示</string>
-  <string name="ambient_display_enable_summary">當接收到通知時喚醒螢幕</string>
+  <string name="ambient_display_enable_summary">收到通知時喚醒螢幕</string>
   <string name="hand_wave_gesture_title">揮手</string>
   <string name="hand_wave_gesture_summary">揮手時閃爍呼吸燈</string>
   <string name="pick_up_gesture_title">拿起</string>
-  <string name="pick_up_gesture_summary">拿起時發出震動通知</string>
+  <string name="pick_up_gesture_summary">拿起時閃爍呼吸燈</string>
   <string name="pocket_gesture_title">口袋</string>
-  <string name="pocket_gesture_summary">從口袋拿出時閃爍呼吸燈</string>
+  <string name="pocket_gesture_summary">從口袋中取出時閃爍呼吸燈</string>
 </resources>
