@@ -17,4 +17,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">स्क्रीन बन्द हुँदा गर्ने ईशारा हरु</string>
+  <string name="touchscreen_c_gesture_title">क्यामरा</string>
+  <string name="touchscreen_c_gesture_summary">क्यामरा खोल्न \"C\" बनाउनुहोस्</string>
+  <string name="touchscreen_e_gesture_title">ईमेल</string>
+  <string name="touchscreen_e_gesture_summary">ईमेल खोल्न \"e\" बनाउनुहोस्</string>
+  <string name="touchscreen_s_gesture_title">मेसेजइङ</string>
+  <string name="touchscreen_s_gesture_summary">मेसेजइङ खोल्न \"S\" बनाउनुहोस्</string>
+  <string name="touchscreen_v_gesture_title">डायलर</string>
+  <string name="touchscreen_v_gesture_summary">डायलर खोल्न \"V\" बनाउनुहोस्</string>
+  <string name="touchscreen_w_gesture_title">ब्राउजर</string>
+  <string name="touchscreen_w_gesture_summary">ब्राउजर खोल्न \"W\" बनाउनुहोस्</string>
+  <string name="touchscreen_z_gesture_title">टर्च लाईट</string>
+  <string name="touchscreen_z_gesture_summary">टर्च लाईट खोल्न \"Z\" बनाउनुहोस्</string>
+  <string name="ambient_display_title">झुलुक्क देखिने</string>
+  <string name="ambient_display_enable_title">झुलुक्क देखिने</string>
+  <string name="ambient_display_enable_summary">सुचना आउँदा स्क्रीन खुल्ने</string>
+  <string name="hand_wave_gesture_title">हात हल्लाउने</string>
+  <string name="hand_wave_gesture_summary">हात हल्लाउदा सुचना देखिने</string>
+  <string name="pick_up_gesture_title">फोन उचाल्द</string>
+  <string name="pick_up_gesture_summary">फोन उचाल्दा सुचना देखिने</string>
+  <string name="pocket_gesture_title">खल्ती मा हुँदा</string>
+  <string name="pocket_gesture_summary">खल्ती बाट निकाल्दा सुचना देखिने</string>
 </resources>
