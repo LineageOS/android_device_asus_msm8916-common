@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">Cử chỉ màn hình tắt</string>
   <string name="touchscreen_c_gesture_title">Máy ảnh</string>
   <string name="touchscreen_c_gesture_summary">Vẽ \"C\" để kích hoạt máy ảnh</string>
   <string name="touchscreen_e_gesture_title">Email</string>
@@ -29,4 +30,13 @@
   <string name="touchscreen_w_gesture_summary">Vẽ \"W\" để mở ứng dụng trình duyệt</string>
   <string name="touchscreen_z_gesture_title">Đèn Flash</string>
   <string name="touchscreen_z_gesture_summary">Vẽ \"Z\" để bật/tắt đèn flash</string>
+  <string name="ambient_display_title">Hiển thị môi trường xung quanh</string>
+  <string name="ambient_display_enable_title">Hiển thị môi trường xung quanh</string>
+  <string name="ambient_display_enable_summary">Đánh thức màn hình khi nhận thông báo</string>
+  <string name="hand_wave_gesture_title">Vẫy tay</string>
+  <string name="hand_wave_gesture_summary">Kích hoạt thông báo lúc vẫy tay</string>
+  <string name="pick_up_gesture_title">Nhấc lên</string>
+  <string name="pick_up_gesture_summary">Kích hoạt thông báo khi nhấc lên</string>
+  <string name="pocket_gesture_title">Bỏ túi</string>
+  <string name="pocket_gesture_summary">Kích hoạt thông báo khi lấy ra khỏi túi</string>
 </resources>

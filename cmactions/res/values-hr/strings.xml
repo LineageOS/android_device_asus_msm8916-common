@@ -25,18 +25,18 @@
   <string name="touchscreen_s_gesture_title">Poruke</string>
   <string name="touchscreen_s_gesture_summary">Nacrtajte \"S\" za otvaranje aplikacije Poruke</string>
   <string name="touchscreen_v_gesture_title">Brojčana tipkovnica</string>
-  <string name="touchscreen_v_gesture_summary">Nacrtajte \"V\" da biste otvorili aplikaciju Brojčana tipkovnica</string>
+  <string name="touchscreen_v_gesture_summary">Nacrtajte \"V\" da biste otvorili aplikaciju telefona</string>
   <string name="touchscreen_w_gesture_title">Preglednik</string>
   <string name="touchscreen_w_gesture_summary">Nacrtajte \"W\" za otvaranje aplikacije Preglednik</string>
   <string name="touchscreen_z_gesture_title">Bljeskalica</string>
   <string name="touchscreen_z_gesture_summary">Nacrtajte \"Z\" za upravljanje svjetiljkom</string>
-  <string name="ambient_display_title">Ambijentni zaslon</string>
-  <string name="ambient_display_enable_title">Ambijentni zaslon</string>
-  <string name="ambient_display_enable_summary">Probudi zaslon kada primite obavijesti</string>
+  <string name="ambient_display_title">Ambijentalni zaslon</string>
+  <string name="ambient_display_enable_title">Ambijentalni zaslon</string>
+  <string name="ambient_display_enable_summary">Buđenje zaslona kada primite obavijest</string>
   <string name="hand_wave_gesture_title">Zamah rukom</string>
-  <string name="hand_wave_gesture_summary">Prikaz obavijesti na zamah rukom</string>
+  <string name="hand_wave_gesture_summary">Pulsiranje obavijesti na zamah rukom</string>
   <string name="pick_up_gesture_title">Podizanje</string>
-  <string name="pick_up_gesture_summary">Prikaz obavijesti kod podizanja</string>
+  <string name="pick_up_gesture_summary">Pulsiranje obavijesti pri podizanju uređaja</string>
   <string name="pocket_gesture_title">Džep</string>
-  <string name="pocket_gesture_summary">Prikaz obavijesti kada izvadite uređaj iz džepa</string>
+  <string name="pocket_gesture_summary">Pulsiranje obavijesti kad izvadite mobitel iz džepa</string>
 </resources>
