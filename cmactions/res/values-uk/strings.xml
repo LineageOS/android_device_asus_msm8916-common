@@ -17,4 +17,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">Жести при вимкненому екрані</string>
+  <string name="touchscreen_c_gesture_title">Камера</string>
+  <string name="touchscreen_c_gesture_summary">Намалюйте літеру «C», щоб увімкнути камеру</string>
+  <string name="touchscreen_e_gesture_title">Електронна пошта</string>
+  <string name="touchscreen_e_gesture_summary">Намалюйте літеру «е», щоб відкрити програму електронної пошти</string>
+  <string name="touchscreen_s_gesture_title">Повідомлення</string>
+  <string name="touchscreen_s_gesture_summary">Намалюйте літеру «S», щоб відкрити додаток обміну повідомленнями</string>
+  <string name="touchscreen_v_gesture_title">Телефон</string>
+  <string name="touchscreen_v_gesture_summary">Намалюйте літеру «V», щоб відкрити телефон</string>
+  <string name="touchscreen_w_gesture_title">Браузер</string>
+  <string name="touchscreen_w_gesture_summary">Намалюйте літеру «W», щоб відкрити переглядач</string>
+  <string name="touchscreen_z_gesture_title">Ліхтарик</string>
+  <string name="touchscreen_z_gesture_summary">Намалюйте літеру «Z», аби увімкнути або вимкнути ліхтарик</string>
+  <string name="ambient_display_title">Активний дисплей</string>
+  <string name="ambient_display_enable_title">Активний дисплей</string>
+  <string name="ambient_display_enable_summary">Активувати екран, коли надходять сповіщення</string>
+  <string name="hand_wave_gesture_title">Помахи рукою</string>
+  <string name="hand_wave_gesture_summary">Показувати сповіщення при помахах рукою</string>
+  <string name="pick_up_gesture_title">Підняти</string>
+  <string name="pick_up_gesture_summary">Показувати сповіщення при підніманні пристрою</string>
+  <string name="pocket_gesture_title">Кишеня</string>
+  <string name="pocket_gesture_summary">Показувати сповіщення при вийманні з кишені</string>
 </resources>
