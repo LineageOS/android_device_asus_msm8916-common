@@ -170,6 +170,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Netmgrd
+PRODUCT_PACKAGES += \
+    libc_shim
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8916
