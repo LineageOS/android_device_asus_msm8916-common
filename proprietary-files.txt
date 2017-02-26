@@ -304,9 +304,10 @@ vendor/lib/libqmi.so|c7e6fdce02808c8ce8a0a82a6970e77a23cc5686
 vendor/lib/libsmemlog.so|b87c633d0faa143db4744bd17de5b03d600df15e
 
 # Radio - from kipper
+# bin/netmgrd, vendor/lib64/libnetmgr.so - from oneplus2
 -app/shutdownlistener/shutdownlistener.apk|39061bdec43a83c496f7ad4d8faed54317efb0ef
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|33e16de924c288db5d7f50495252f072d6d196b6
-bin/netmgrd|e500d52c6629145af0daeaf884ce8c031d09b72f
+bin/netmgrd|fa26b9b649891d11cf2e792d82ab00c4dc09eb98
 bin/qmuxd|bb7e0d13cf1229e40754b84539ca2c396300f5c8
 bin/radish|61ac905ce0b0056d0c954e6197cd930dd75ea2c4
 bin/rmt_storage|08011978c658b72068edc3b47c215440af06c196
@@ -320,7 +321,7 @@ vendor/lib64/libcneapiclient.so|38112f63d242165de6908ed21a07dfde87c1807c
 vendor/lib64/libconfigdb.so|2fe46de7e0c9c72e04156e842da7487b387da446
 vendor/lib64/libmdmdetect.so|1c354db8b3b7ab9de2f80a9867dce375869fa26d
 vendor/lib64/liblqe.so|a82a2515b9e59eae010419b0f8b27ddee073902b
-vendor/lib64/libnetmgr.so|f692ba6fdddf2dd37dbaa9d71e983ed934cf2f88
+vendor/lib64/libnetmgr.so|ac9dac077f759dea8215fed06beffd77cfb261d9
 vendor/lib64/libperipheral_client.so|f05e771b2ad9568e9c8ded01036083bba1a41362
 vendor/lib64/libril-qc-qmi-1.so|3a353a42a1da3ae1c81b3850939962b978455084
 vendor/lib64/libril-qc-radioconfig.so|0117c27403045abc2a1225a6fb10c0da033daa39
