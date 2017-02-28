@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_0de4ae39",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-02-28T22:48:39Z",
+      "side": 1,
+      "message": "That\u0027s nice of them",
+      "revId": "deb3fd9ce660ae16de14c6277c48a018c844bee4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
