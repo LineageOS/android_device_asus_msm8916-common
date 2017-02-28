@@ -268,11 +268,12 @@ vendor/lib/libmm-disp-apis.so
 vendor/lib/libmm-qdcm.so
 
 # Qualcomm framework - from kipper
+# libdsutils - from ivy
 bin/irsc_util|245ce5dc3473131d9a6f535bdfe06df692f77186
 etc/data/dsi_config.xml|d13162d50565af560811c8c253041d702af01d8e
 vendor/lib64/libdiag.so|e5f10c1331389e2c42a31a410ec03a0d7cc2f29f
 vendor/lib64/libdsi_netctrl.so|ecb40bf0d161583a6c07e53aed2d6ea6816cdbca
-vendor/lib64/libdsutils.so|ef6e31bec71ed92633ae0b8c6020254c2f8e4157
+vendor/lib64/libdsutils.so|48d5f54dc7e9fe02f6f1f141244b333949c9ae4b
 vendor/lib64/libidl.so|91f217b00615074f176c629d7e55fdd2b043882b
 vendor/lib64/libqcci_legacy.so|00469d21530b187342683d6121074290d6785ded
 vendor/lib64/libqdi.so|8b02dd31d4ac7ab1d6c01f0cbbb1432a7ded9dbe
@@ -288,7 +289,7 @@ vendor/lib64/libqmi.so|acdfceb8e88fba0e4b151c5cdaac3a2e3a3e1163
 vendor/lib64/libsmemlog.so|2bbf6b1ba45e4c045a8ed478ad772be7547455e8
 vendor/lib/libdiag.so|eb5fb4740cf372950afb1651c4235d6eaf60edeb
 vendor/lib/libdsi_netctrl.so|4c257da07ffe3a4a46ca04da2894bd26424dc087
-vendor/lib/libdsutils.so|03cc1c591913c59c16ca79a75bb7276534badb73
+vendor/lib/libdsutils.so|0d775f474cf61d76d9aa9b398d271e99c6d29d73
 vendor/lib/libidl.so|ebbfe34beebb25e6178e3dc0d79152cdd81a93e1
 vendor/lib/libqcci_legacy.so|e7995fa019dadac9d0b880bb8cdfe8977671a9f2
 vendor/lib/libqdi.so|8ca9ccc62a9667d0580087b6d58de37bbdef662e
@@ -304,13 +305,14 @@ vendor/lib/libqmi.so|c7e6fdce02808c8ce8a0a82a6970e77a23cc5686
 vendor/lib/libsmemlog.so|b87c633d0faa143db4744bd17de5b03d600df15e
 
 # Radio - from kipper
+# netmgrd, libnetmgr.so, netmgr_config.xml - from ivy
 -app/shutdownlistener/shutdownlistener.apk|39061bdec43a83c496f7ad4d8faed54317efb0ef
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|38d8b9635b4e34d10e1e289fa82ab3b1a852ea5c
-bin/netmgrd|e500d52c6629145af0daeaf884ce8c031d09b72f
+bin/netmgrd|6f68ccc1782a5caff2d07d379e99818dc9149ba1
 bin/qmuxd|bb7e0d13cf1229e40754b84539ca2c396300f5c8
 bin/radish|61ac905ce0b0056d0c954e6197cd930dd75ea2c4
 bin/rmt_storage|08011978c658b72068edc3b47c215440af06c196
-etc/data/netmgr_config.xml|e28e1fe3cfbe89c89d66560160a10d53b11b8f61
+etc/data/netmgr_config.xml|8977642395835db152fec48fd9dbdfdcf35e55dc
 etc/data/qmi_config.xml|36966f438b68068eefbd4c314df5212f37d92af9
 etc/permissions/qcnvitems.xml|dc0e70cace2317b5169a454cbc2bbf8887c18d55
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
@@ -320,7 +322,7 @@ vendor/lib64/libcneapiclient.so|38112f63d242165de6908ed21a07dfde87c1807c
 vendor/lib64/libconfigdb.so|2fe46de7e0c9c72e04156e842da7487b387da446
 vendor/lib64/libmdmdetect.so|1c354db8b3b7ab9de2f80a9867dce375869fa26d
 vendor/lib64/liblqe.so|a82a2515b9e59eae010419b0f8b27ddee073902b
-vendor/lib64/libnetmgr.so|f692ba6fdddf2dd37dbaa9d71e983ed934cf2f88
+vendor/lib64/libnetmgr.so|ba5ae206e6f00bfd27638cfef3378f1bb3781fe3
 vendor/lib64/libperipheral_client.so|f05e771b2ad9568e9c8ded01036083bba1a41362
 vendor/lib64/libril-qc-qmi-1.so|3a353a42a1da3ae1c81b3850939962b978455084
 vendor/lib64/libril-qc-radioconfig.so|0117c27403045abc2a1225a6fb10c0da033daa39
