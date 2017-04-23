@@ -35,6 +35,14 @@
 
 using namespace android;
 
+// Wrapper specific parameters names
+static const char KEY_QC_LONGSHOT_SUPPORTED[] = "longshot-supported";
+static const char KEY_QC_MANUAL_FOCUS_POSITION[] = "manual-focus-position";
+static const char KEY_QC_MANUAL_FOCUS_POS_TYPE[] = "manual-focus-pos-type";
+static const char KEY_QC_FOCUS_POSITION_SCALE[] = "cur-focus-scale";
+static const char KEY_QC_FOCUS_POSITION_DIOPTER[] = "cur-focus-diopter";
+static const char KEY_QC_HDR_NEED_1X[] = "hdr-need-1x";
+
 static Mutex gCameraWrapperLock;
 static camera_module_t *gVendorModule = 0;
 
@@ -109,27 +117,27 @@ static char *camera_fixup_getparams(int id __unused, const char *settings)
     params.dump();
 #endif
 
-    params.remove(CameraParameters::KEY_QC_LONGSHOT_SUPPORTED);
+    params.remove(KEY_QC_LONGSHOT_SUPPORTED);
     params.remove(CameraParameters::KEY_AUTO_WHITEBALANCE_LOCK_SUPPORTED);
 
     params.set(CameraParameters::KEY_SUPPORTED_SCENE_MODES, "auto,hdr");
 
     const char *manualFocusPosition =
-            params.get(CameraParameters::KEY_QC_MANUAL_FOCUS_POSITION);
+            params.get(KEY_QC_MANUAL_FOCUS_POSITION);
     const char *manualFocusPositionType =
-            params.get(CameraParameters::KEY_QC_MANUAL_FOCUS_POS_TYPE);
+            params.get(KEY_QC_MANUAL_FOCUS_POS_TYPE);
     if (manualFocusPositionType != NULL) {
         if (!strcmp(manualFocusPositionType, "2")) {
             if (manualFocusPosition != NULL) {
-                params.set(CameraParameters::KEY_QC_FOCUS_POSITION_SCALE, manualFocusPosition);
+                params.set(KEY_QC_FOCUS_POSITION_SCALE, manualFocusPosition);
             } else {
-                params.set(CameraParameters::KEY_QC_FOCUS_POSITION_SCALE, "0");
+                params.set(KEY_QC_FOCUS_POSITION_SCALE, "0");
             }
         } else if (!strcmp(manualFocusPositionType, "3")) {
             if (manualFocusPosition != NULL) {
-                params.set(CameraParameters::KEY_QC_FOCUS_POSITION_DIOPTER, manualFocusPosition);
+                params.set(KEY_QC_FOCUS_POSITION_DIOPTER, manualFocusPosition);
             } else {
-                params.set(CameraParameters::KEY_QC_FOCUS_POSITION_DIOPTER, "0");
+                params.set(KEY_QC_FOCUS_POSITION_DIOPTER, "0");
             }
         }
     }
@@ -158,7 +166,7 @@ static char *camera_fixup_setparams(int id, const char *settings)
     const char *sceneMode = params.get(CameraParameters::KEY_SCENE_MODE);
     if (sceneMode != NULL) {
         if (!strcmp(sceneMode, CameraParameters::SCENE_MODE_HDR)) {
-            params.remove(CameraParameters::KEY_QC_HDR_NEED_1X);
+            params.remove(KEY_QC_HDR_NEED_1X);
         }
     }
 
