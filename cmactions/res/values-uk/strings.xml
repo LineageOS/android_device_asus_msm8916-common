@@ -30,8 +30,8 @@
   <string name="touchscreen_w_gesture_summary">Намалюйте літеру «W», щоб відкрити переглядач</string>
   <string name="touchscreen_z_gesture_title">Ліхтарик</string>
   <string name="touchscreen_z_gesture_summary">Намалюйте літеру «Z», аби увімкнути або вимкнути ліхтарик</string>
-  <string name="ambient_display_title">Активний дисплей</string>
-  <string name="ambient_display_enable_title">Активний дисплей</string>
+  <string name="ambient_display_title">Ambient дисплей</string>
+  <string name="ambient_display_enable_title">Ambient дисплей</string>
   <string name="ambient_display_enable_summary">Активувати екран, коли надходять сповіщення</string>
   <string name="hand_wave_gesture_title">Помахи рукою</string>
   <string name="hand_wave_gesture_summary">Показувати сповіщення при помахах рукою</string>

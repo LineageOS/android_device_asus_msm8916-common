@@ -17,16 +17,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">Xestos de pantalla apagada</string>
   <string name="touchscreen_c_gesture_title">Cámara</string>
-  <string name="touchscreen_c_gesture_summary">Dibuxar una \"C\" p\'activar la cámara</string>
-  <string name="touchscreen_e_gesture_title">Corréu-e</string>
-  <string name="touchscreen_e_gesture_summary">Dibuxar una \"e\" p\'abrir el corréu-e</string>
+  <string name="touchscreen_c_gesture_summary">Dibuxa una «C» p\'activar la cámara</string>
+  <string name="touchscreen_e_gesture_title">Corréu</string>
+  <string name="touchscreen_e_gesture_summary">Dibuxa una «e» p\'abrir l\'aplicación de corréu</string>
   <string name="touchscreen_s_gesture_title">Mensaxería</string>
-  <string name="touchscreen_s_gesture_summary">Dibuxar una \"S\" p\'abrir la mensaxería</string>
+  <string name="touchscreen_s_gesture_summary">Dibuxa una «S» p\'abrir l\'aplicación de mensaxería</string>
   <string name="touchscreen_v_gesture_title">Marcador</string>
-  <string name="touchscreen_v_gesture_summary">Dibuxar una \"V\" p\'abrir el marcador</string>
+  <string name="touchscreen_v_gesture_summary">Dibuxa una «V» p\'abrir el marcador numbéricu</string>
   <string name="touchscreen_w_gesture_title">Restolador</string>
-  <string name="touchscreen_w_gesture_summary">Dibuxar una \"W\" p\'abrir el restolador</string>
+  <string name="touchscreen_w_gesture_summary">Dibuxa una «W» p\'abrir el restolador</string>
   <string name="touchscreen_z_gesture_title">Llinterna</string>
-  <string name="touchscreen_z_gesture_summary">Dibuxa una \"Z\" p\'abrir la llinterna</string>
+  <string name="touchscreen_z_gesture_summary">Dibuxa una «Z» p\'alternar la llinterna</string>
+  <string name="ambient_display_title">Pantalla ambiente</string>
+  <string name="ambient_display_enable_title">Pantalla ambiente</string>
+  <string name="ambient_display_enable_summary">Esconsueña la pantalla al recibir avisos</string>
+  <string name="hand_wave_gesture_title">Pasar la mano</string>
+  <string name="hand_wave_gesture_summary">Avisos llatentes al pasar la mano</string>
+  <string name="pick_up_gesture_title">Coyer</string>
+  <string name="pick_up_gesture_summary">Avisos llatentes al coyer</string>
+  <string name="pocket_gesture_title">Bolsiellu</string>
+  <string name="pocket_gesture_summary">Avisos llatentes al sacar del bolsiellu</string>
 </resources>

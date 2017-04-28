@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
+  <string name="gesture_display_title">Gestes écran éteint</string>
   <string name="touchscreen_c_gesture_title">Caméra</string>
   <string name="touchscreen_c_gesture_summary">Dessiner un « C » pour activer l\'appareil photo</string>
   <string name="touchscreen_e_gesture_title">E-mail</string>
@@ -31,7 +32,11 @@
   <string name="touchscreen_z_gesture_summary">Dessiner un « Z » pour activer/désactiver la lampe de poche</string>
   <string name="ambient_display_title">Affichage ambiant</string>
   <string name="ambient_display_enable_title">Affichage ambiant</string>
+  <string name="ambient_display_enable_summary">Réveil de l\'écran lorsque vous recevez des notifications</string>
   <string name="hand_wave_gesture_title">Passage de la main</string>
+  <string name="hand_wave_gesture_summary">Le voyant des notifications clignote au passage de la main</string>
   <string name="pick_up_gesture_title">Prise en main</string>
+  <string name="pick_up_gesture_summary">Le voyant des notifications clignote lors de la prise en main</string>
   <string name="pocket_gesture_title">Poche</string>
+  <string name="pocket_gesture_summary">Le voyant des notifications clignote à la sortie de la poche</string>
 </resources>

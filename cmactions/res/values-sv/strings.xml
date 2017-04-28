@@ -32,4 +32,5 @@
   <string name="touchscreen_z_gesture_summary">Rita ett \'Z\' för att slå på ficklampa</string>
   <string name="hand_wave_gesture_title">Handrörelse</string>
   <string name="pick_up_gesture_title">Plocka upp</string>
+  <string name="pocket_gesture_title">Ficka</string>
 </resources>
