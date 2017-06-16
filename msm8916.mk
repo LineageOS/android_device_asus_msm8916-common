@@ -211,6 +211,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermal/thermal-engine-8939-ze600kl.conf:system/etc/thermal-engine-8939-ze600kl.conf \
     $(LOCAL_PATH)/thermal/thermal-engine-8939-ze601kl.conf:system/etc/thermal-engine-8939-ze601kl.conf
 
+# Unified device props
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST +=
+    ro.build.product \
+    ro.product.model \
+    ro.product.device \
+    ro.build.description \
+    ro.build.fingerprint
+
 # Voice recognition
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
