@@ -30,8 +30,8 @@
   <string name="touchscreen_w_gesture_summary">Wを描いてブラウザアプリを開く</string>
   <string name="touchscreen_z_gesture_title">フラッシュライト</string>
   <string name="touchscreen_z_gesture_summary">Zを描いてフラッシュライトを切り替える</string>
-  <string name="ambient_display_title">常に画面表示ディスプレイ</string>
-  <string name="ambient_display_enable_title">常に画面表示ディスプレイ</string>
+  <string name="ambient_display_title">アンビエント表示</string>
+  <string name="ambient_display_enable_title">アンビエント表示</string>
   <string name="ambient_display_enable_summary">通知を受信したときに画面を点灯する</string>
   <string name="hand_wave_gesture_title">手を振る</string>
   <string name="hand_wave_gesture_summary">手を振ったときに通知を点滅表示する</string>
