@@ -644,6 +644,8 @@ service rmt_storage /vendor/bin/rmt_storage
     class core
     user root
     group system wakelock
+    writepid /dev/cpuset/system-background/tasks
+    shutdown critical
 
 service config_bt_addr /vendor/bin/btnvtool -O
     class core
