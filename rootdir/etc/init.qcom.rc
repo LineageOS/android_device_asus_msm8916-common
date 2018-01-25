@@ -792,11 +792,6 @@ service time_daemon /vendor/bin/time_daemon
     user root
     group root
 
-service audiod /system/bin/audiod
-    class late_start
-    user system
-    group system
-
 on charger
     wait /dev/block/bootdevice/by-name/system
     mount ext4 /dev/block/bootdevice/by-name/system /system ro barrier=1
