@@ -27,12 +27,12 @@ LOCAL_SRC_FILES := \
 
 LOCAL_SHARED_LIBRARIES := \
     libhardware \
-    libhidltransport \
     liblog \
     libcamera_client \
-    libutils \
-    libcutils \
     libgui \
+    libhidltransport \
+    libsensor \
+    libutils \
     android.hidl.token@1.0-utils
 
 LOCAL_STATIC_LIBRARIES := \
