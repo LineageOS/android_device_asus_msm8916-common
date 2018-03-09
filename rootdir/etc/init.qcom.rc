@@ -50,7 +50,6 @@ on fs
     symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
 
     mount_all /vendor/etc/fstab.qcom
-    swapon_all /vendor/etc/fstab.qcom
 
     mkdir /persist/data 0700 system system
     restorecon_recursive /persist
@@ -843,6 +842,9 @@ on property:sys.boot_completed=1
     write /proc/driver/audio_debug ${sys.uart.enable}
 
     start spk_calibration
+
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.qcom
 
 on property:vold.decrypt=trigger_restart_framework
     stop camera-provider-2-4
