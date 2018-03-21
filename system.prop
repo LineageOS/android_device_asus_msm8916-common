@@ -46,6 +46,7 @@ ro.qualcomm.bt.hci_transport=smd
 # Camera
 persist.camera.cpp.duplication=false
 camera2.portability.force_api=1
+debug.camcorder.disablemeta=true
 
 # Display
 debug.egl.hw=0
