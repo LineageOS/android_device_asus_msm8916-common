@@ -194,6 +194,12 @@ void property_override(char const prop[], char const value[])
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
+void property_override_dual(char const system_prop[], char const vendor_prop[], char const value[])
+{
+    property_override(system_prop, value);
+    property_override(vendor_prop, value);
+}
+
 void vendor_load_properties()
 {
     char b_description[PROP_VALUE_MAX], b_fingerprint[PROP_VALUE_MAX];
@@ -212,12 +218,11 @@ void vendor_load_properties()
     sprintf(p_device, "ASUS_%s", device);
     sprintf(p_carrier, "US-ASUS_%s-WW_%s", device, device);
 
-    property_override("ro.build.product", family);
     property_override("ro.build.description", b_description);
-    property_override("ro.build.fingerprint", b_fingerprint);
     property_override("ro.product.carrier", p_carrier);
-    property_override("ro.product.device", p_device);
-    property_override("ro.product.model", p_model);
+	property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", b_fingerprint);
+	property_override_dual("ro.product.device", "ro.vendor.product.model", p_device);
+	property_override_dual("ro.product.model", "ro.vendor.product.device", p_model);
 
     property_set("dalvik.vm.heapstartsize", heapstartsize);
     property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
