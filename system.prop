@@ -104,9 +104,6 @@ ro.telephony.default_network=9,9
 # Shutdown timeout
 ro.build.shutdown_timeout=0
 
-# Storage
-ro.sys.sdcardfs=true
-
 # Time
 persist.timed.enable=true
 
