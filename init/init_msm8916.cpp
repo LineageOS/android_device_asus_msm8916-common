@@ -212,17 +212,17 @@ void vendor_load_properties()
     check_device();
     init_alarm_boot_properties();
 
-    sprintf(b_description, "%s-user 6.0.1 MMB29P WW_user_21.40.1220.%s_%s release-keys", family, buildnumber, builddate);
-    sprintf(b_fingerprint, "asus/WW_%s/ASUS_%s:6.0.1/MMB29P/WW_user_21.40.1220.%s_%s:user/release-keys", device, device, buildnumber, builddate);
+    sprintf(b_description, "Z00L-user 6.0.1 MMB29P WW_user_21.40.1220.2196_20180308 release-keys", family, buildnumber, builddate);
+    sprintf(b_fingerprint, "asus/WW_Z00L/ASUS_Z00L_63:6.0.1/MMB29P/WW_user_21.40.1220.2196_20180308:user/release-keys", device, device, buildnumber, builddate);
     sprintf(p_model, "ASUS_%sD", device);
     sprintf(p_device, "ASUS_%s", device);
     sprintf(p_carrier, "US-ASUS_%s-WW_%s", device, device);
 
     property_override("ro.build.description", b_description);
     property_override("ro.product.carrier", p_carrier);
-	property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", b_fingerprint);
-	property_override_dual("ro.product.device", "ro.vendor.product.model", p_device);
-	property_override_dual("ro.product.model", "ro.vendor.product.device", p_model);
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", b_fingerprint);
+    property_override_dual("ro.product.device", "ro.vendor.product.model", p_device);
+    property_override_dual("ro.product.model", "ro.vendor.product.device", p_model);
 
     property_set("dalvik.vm.heapstartsize", heapstartsize);
     property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
