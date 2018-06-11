@@ -43,6 +43,9 @@ ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 ro.qualcomm.bt.hci_transport=smd
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Camera
 persist.camera.cpp.duplication=false
 camera2.portability.force_api=1
