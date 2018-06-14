@@ -109,6 +109,9 @@ persist.timed.enable=true
 # UART
 sys.uart.enable=0
 
+# Vendor security patch level 
+ro.lineage.build.vendor_security_patch=2018-02-05
+
 # WiFi
 ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
