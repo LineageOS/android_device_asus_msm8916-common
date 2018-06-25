@@ -111,6 +111,9 @@ TARGET_USES_ION := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_NEW_ION_API :=true
 
+# Extended Filesystem Support
+TARGET_EXFAT_DRIVER := sdfat
+
 # FM Radio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 BOARD_HAVE_QCOM_FM := true
