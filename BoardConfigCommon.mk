@@ -171,9 +171,6 @@ include device/qcom/sepolicy/legacy-sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
-# SDCLANG
-TARGET_USE_SDCLANG := true
-
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/lib-imscamera.so|libshims_camera.so \
