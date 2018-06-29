@@ -1,15 +1,11 @@
 
 [
   {
-    "repository": "asus-devs/android_kernel_asus_msm8916",
+    "repository": "android_kernel_asus_msm8916",
     "target_path": "kernel/asus/msm8916"
   },
   {
-    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
-  }
-  {
-    "repository": "asus-devs/proprietary_vendor_asus",
-    "target_path": "vendor/asus"
   }
 ]
