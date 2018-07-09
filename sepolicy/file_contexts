@@ -1,9 +1,6 @@
 # ASDF
 /asdf(/.*)?                                                   u:object_r:asdf_data_file:s0
 
-# Bluetooth
-/(vendor|system/vendor)/bin/btnvtool                          u:object_r:btnvtool_exec:s0
-
 # Camera
 /system/lib/libarcsoft_panorama_burstcapture\.so              u:object_r:apk_data_file:s0
 /system/lib/libcameraap\.so                                   u:object_r:apk_data_file:s0
