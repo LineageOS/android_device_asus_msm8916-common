@@ -7,7 +7,6 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := libloc_eng
 LOCAL_MODULE_OWNER := qcom
-LOCAL_VENDOR_MODULE := true
 
 LOCAL_MODULE_TAGS := optional
 
@@ -39,6 +38,10 @@ LOCAL_CFLAGS += \
      -fno-short-enums \
      -D_ANDROID_
 
+ifeq ($(QCPATH),)
+LOCAL_CFLAGS += -DOSS_BUILD
+endif
+
 LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/gps.utils \
     $(TARGET_OUT_HEADERS)/libloc_core \
@@ -64,7 +67,6 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := gps.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_OWNER := qcom
-LOCAL_VENDOR_MODULE := true
 
 LOCAL_MODULE_TAGS := optional
 
@@ -96,6 +98,10 @@ endif
 
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 LOCAL_CFLAGS += -DTARGET_USES_QCOM_BSP
+endif
+
+ifeq ($(QCPATH),)
+LOCAL_CFLAGS += -DOSS_BUILD
 endif
 
 ## Includes
